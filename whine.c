@@ -3,8 +3,7 @@
 #include <stdio.h>
 #include "whine.h"
 
-void main()
+void whine()
 {
-    printf ("Hello, world!\n");
-    whine();
+    printf("Whine, whine\n");
 }
