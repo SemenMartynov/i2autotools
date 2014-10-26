@@ -18,9 +18,11 @@ AC_CONFIG_FILES([Makefile])
 
 # Look for a C compiler:
 AC_PROG_CC
+AM_PROG_AR
 
 # Perhaps check for: (more) programs, libraries, header files, types,
 # structures, compiler characteristics, library functions, system services.
+LT_INIT
 
 # Do final output.
 AC_OUTPUT
