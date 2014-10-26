@@ -10,6 +10,7 @@ AC_CONFIG_SRCDIR([hello.c])
 AC_CONFIG_HEADERS([config.h])
 # Put autotools auxiliary files in a subdir, so they don't clutter top dir:
 AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_MACRO_DIR([m4])
 
 # Enable "automake" to simplify creating makefiles:
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror])
